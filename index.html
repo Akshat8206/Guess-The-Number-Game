@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Guess The Number</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <button id="themeBtn">
+    🌙 Dark Mode
+    </button>
+
+    <div class="container">
+
+        <h1>Guess The Number</h1>
+
+        <p class="instruction">
+            Guess a number between 1 and 50
+        </p>
+
+        <div class="difficulty">
+
+    <label for="difficulty">
+        Difficulty:
+    </label>
+
+    <select id="difficulty">
+
+        <option value="easy">
+            Easy
+        </option>
+
+        <option value="medium">
+            Medium
+        </option>
+
+        <option value="hard">
+            Hard
+        </option>
+
+    </select>
+
+    <div id="confetti">
+    🎉🎊✨
+</div>
+</div>
+
+        <input
+            type="number"
+            id="guessInput"
+            placeholder="Enter your guess">
+
+        <button id="checkBtn">
+            Check Guess
+        </button>
+
+        <p id="message">
+            Start Guessing...
+        </p>
+
+        <div class="scoreBoard">
+
+            <p>
+                Attempts:
+                <span id="attempts">
+                    0
+                </span>
+            </p>
+
+            <p>
+                Score:
+                <span id="score">
+                    100
+                </span>
+            </p>
+
+            <p>
+                Best Score:
+                <span id="bestScore">
+                    0
+                </span>
+            </p>
+
+        </div>
+
+        <button id="playAgain">
+            Play Again
+        </button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

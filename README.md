@@ -14,10 +14,14 @@ A modern and interactive Guess The Number game built using HTML, CSS, and JavaSc
 ⌨️ Press Enter to submit guesses
 🔄 Play Again functionality
 🎉 Winning celebration
+
+
 🛠️ Technologies Used
-> HTML5
-> CSS3
-> JavaScript (ES6)
+*  HTML5
+*  CSS3
+*  JavaScript (ES6) 
+
+
 📚 Concepts Practiced
 1. DOM Manipulation
 2. Event Listeners
